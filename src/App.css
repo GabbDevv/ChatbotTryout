@@ -2,6 +2,27 @@
   text-align: center;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.App-content {
+  margin-top: 80px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
