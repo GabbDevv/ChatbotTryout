@@ -3,6 +3,7 @@
 }
 
 .header {
+  align-items: normal;
   position: fixed;
   top: 0;
   left: 0;
@@ -19,6 +20,12 @@
   font-size: 1.5rem;
 }
 
+.icon{
+  width: 36px;
+  height: 36px;
+  fill: white;
+}
+
 .App-content {
   margin-top: 80px;
 }
@@ -30,7 +37,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s cubic-bezier(0.645, 0.045, 0.355, 1) ;
   }
 }
 

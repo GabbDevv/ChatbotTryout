@@ -1,7 +1,15 @@
+import icon from '../resources/icon.svg';
+
 function Header() {
   return (
     <header className="header">
-      <h1>Header Component</h1>
+        <div>
+            <img src={icon} className='icon'/>
+        </div>
+        <div>
+           <h1>Header Component</h1> 
+        </div>
+      
     </header>
   );
 }
